@@ -1,0 +1,47 @@
+{
+  "name": "ipreact-for-react",
+  "version": "0.1.0",
+  "description": "connect data-actions of react-components",
+  "main": "dist/ipreact.js",
+  "scripts": {
+    "start": "f2e start",
+    "build": "f2e build && tsc",
+    "prepublish": "npm run build",
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shy2850/ipreact-for-react.git"
+  },
+  "keywords": [
+    "react",
+    "ipreact",
+    "f2e-server",
+    "f2e-preact-app"
+  ],
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
+  "module": "dist/src/ipreact.js",
+  "typings": "dist/src/ipreact.d.ts",
+  "author": "shy2850",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shy2850/ipreact-for-react/issues"
+  },
+  "homepage": "https://github.com/shy2850/ipreact-for-react#readme",
+  "devDependencies": {
+    "@types/node": "^9.6.35",
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "^16.8.4",
+    "f2e-middle-rollup": "^0.3.3",
+    "f2e-server": "^2.9.13",
+    "react-dom": "^16.8.6",
+    "rollup-plugin-typescript2": "^0.11.1",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "react": "^16.8.6"
+  }
+}

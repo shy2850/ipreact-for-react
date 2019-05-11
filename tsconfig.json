@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "maxNodeModuleJsDepth": 1,
+        "module": "esnext",
+        "jsx": "react",
+        "jsxFactory": "h",
+        "sourceMap": true,
+        "target": "esnext"
+    },
+    "include": [
+        "test/**.ts",
+        "test/**.tsx",
+        "src/**.ts",
+        "src/**.tsx"
+    ]
+}
